@@ -653,7 +653,7 @@ position: relative;
 }
 
 .form-checkbox-container {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 .form-checkbox:checked + .form-checkbox-label .review-form-own-checkbox {
     background-color: #404bbf;
