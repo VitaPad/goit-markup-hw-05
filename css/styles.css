@@ -648,6 +648,14 @@ position: relative;
     color: #2E2F42;
 }
 
+.form-checkbox-container {
+    margin-bottom: 24px;
+}
+.form-checkbox:checked + .form-checkbox-label .review-form-own-checkbox {
+    background-color: #404bbf;
+    fill: #ffffff;
+}
+
 .review-form-own-checkbox {
     display: inline-flex;
     align-items: center; 
@@ -662,6 +670,7 @@ position: relative;
     justify-content: center;
     fill: transparent;
     cursor: pointer;
+    margin-right: 8px;
 }
 .form-checkbox-label {
 font-size: 12px;
@@ -670,6 +679,9 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 text-align: left;
 color: #8e8f99;
+}
+.privacy-policy-link {
+    color: #4D5AE5;
 }
 
 
