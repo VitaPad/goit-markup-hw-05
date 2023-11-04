@@ -661,6 +661,15 @@ position: relative;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    cursor: pointer;
+}
+.form-checkbox-label {
+font-size: 12px;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.04em;
+text-align: left;
+color: #8e8f99;
 }
 
 
