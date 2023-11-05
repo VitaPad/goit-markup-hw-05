@@ -372,9 +372,22 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe-form">
+                <p class="subscribe-text">Subscribe</p>
+                <form class="subscribe-form">
+                    <label for="subscribe-label">
+                        <input class="subscribe-input" type="email" placeholder="E-mail">
+                    </label>
+                    <button type="submit" class="subscribe-btn">Subscribe
+                        <svg class="subscribe-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop is-open visually-hidden">
         <div class="modal">
             <button class="modal-cloth-btn" type="button">
                 <svg class="cloth-icon-btn" width="8" height="8" aria-label="cloth button">
@@ -447,8 +460,7 @@
                     class="modal-contacts-text"
                     name="user-comment"
                     id="user-comment"
-                    placeholder="Text input">
-                    </textarea>
+                    placeholder="Text input"></textarea>
                 </div>
                 <div class="form-checkbox-container">
                     <input
@@ -461,7 +473,7 @@
                     <label class="form-checkbox-label" for="user-privacy">
                         <span class="review-form-own-checkbox">
                             <svg class="review-form-own-checkbox-icon" width="10" height="8">
-                                <use href="./images/icons.svg#icon-Property-1click">
+                                <use href="./images/icons.svg#icon-check">
                                 </use>
                             </svg>
                         </span> I accept the terms and conditions of the
